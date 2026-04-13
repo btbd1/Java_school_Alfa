@@ -19,7 +19,7 @@ public class Zadanie1 {
   // вывод данных
     System.out.println("Сотрудник: " + employeeName);
     System.out.println("Должность: " + position);
-    System.out.println("Оплата за смены: " + (int) salaryWithoutBonus);
+    System.out.println("Оплата за смены: " + (int) baseSalary);
     System.out.println("Премия: " + (int) bonus);
     System.out.println("Штраф: " + (int) fine);
     System.out.println("Итоговая зарплата: " + (int) finalSalary);
