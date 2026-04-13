@@ -5,16 +5,16 @@ public class Zadanie1 {
     String position = "Старший шаурма-инженер";
     double ratePerShift = 5000.0;  // ставка за смену
     int numberOfShifts = 8;  // количество смен
-    double bonus = 3000.0;  // бонус
+    double bonus = 3000.0;  // премия
     double fine = 500.0;  //штраф
     double price = 300.0;  // цена за шт
     int quantity = 100;  // количество проданных шт
 
-    double baseSalary = numberOfShifts * ratePerShift; // Зарплата без премии
+    double baseSalary = numberOfShifts * ratePerShift; // зарплата без премии
 
-    double finalSalary = baseSalary + bonus - fine; // Зарплата с учетом премии и штрафа
+    double finalSalary = baseSalary + bonus - fine; // зарплата с учетом премии и штрафа
 
-    double revenue = quantity * price; // Выручка
+    double revenue = quantity * price; // выручка
 
   // вывод данных
     System.out.println("Сотрудник: " + employeeName);
