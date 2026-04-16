@@ -5,7 +5,7 @@ public class Zadanie2 {
     Random rnd = new Random();
 
     int age = rnd.nextInt(18, 100);
-    double sum = rnd.nextDouble() * 100000;    // сумма на счете до 100000
+    double sum = rnd.nextDouble() * 1000000;    // сумма на счете до 1000000
     double contribution = sum * 0.075;
 
     boolean hasInvitation = rnd.nextBoolean();
