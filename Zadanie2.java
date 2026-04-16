@@ -8,8 +8,11 @@ public class Zadanie2 {
     double sum = rnd.nextDouble() * 1000000;    // сумма на счете до 1000000
     double contribution = sum * 0.075;
 
-    boolean hasInvitation = rnd.nextBoolean();
-    boolean blacklist = rnd.nextBoolean();
+    // boolean hasInvitation = rnd.nextBoolean();  // хотелось еще порандомить 
+    // boolean blacklist = rnd.nextBoolean();  // зачем задавать вручную? ну лаадно
+
+    boolean hasInvitation = true;  
+    boolean blacklist = false;
 
     boolean isAdult = age >= 18;
     boolean hasInvitationOrMoney = hasInvitation || sum > 50000;
@@ -19,7 +22,7 @@ public class Zadanie2 {
     boolean canPass = isAdult && hasInvitationOrMoney && notBlacklisted;
 
     System.out.println(canPass);
-    if (canPass) System.out.println("Обязательный добровольный взнос: " + String.format("%.2f", contribution));
+    if (canPass) System.out.println("Обязательный добровольный взнос: " + String.format("%.2f", contribution));  // округлила до двух знаков, типичные копейки
   }
 }
 
