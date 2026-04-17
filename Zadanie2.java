@@ -4,7 +4,7 @@ public class Zadanie2 {
   public static void main(String[] args) {
     Random rnd = new Random();
 
-    int age = rnd.nextInt(18, 100);
+    int age = rnd.nextInt(0, 100);
     double sum = rnd.nextDouble() * 1000000;    // сумма на счете до 1000000
     double contribution = sum * 0.075;
 
