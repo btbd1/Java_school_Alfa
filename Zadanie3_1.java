@@ -6,7 +6,7 @@ public class Zadanie3_1 {
 
     String[] petyaBasket = {"курица", "бананы", "творог"};
     String[] kolyaBasket = {"курица", "бананы", "творог"};
-    String[] terentiyBasket = {"пиво", "творог", "ласка магия черного"};
+    String[] terentiyBasket = {"пиво", "пельмени", "ласка магия черного"};
 
     // 1. сравнение кол-ва товаров
       // Петя и Коля
